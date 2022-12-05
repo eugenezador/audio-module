@@ -15,7 +15,6 @@ Tmedia::~Tmedia()
 void Tmedia::play_record(const QString &record_name)
 {
     player->setMedia(QUrl::fromLocalFile(record_name));
-    player->setVolume(70);
     player->play();
     qDebug() << player->errorString();
 }

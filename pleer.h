@@ -2,9 +2,6 @@
 #define PLEER_H
 
 #include <QMainWindow>
-//#include <QMediaPlaylist>
-//#include <QMediaPlayer>
-
 #include "tmedia.h"
 
 QT_BEGIN_NAMESPACE
@@ -35,8 +32,6 @@ signals:
 
 private:
     Ui::Pleer *ui;
-
-//    QMediaPlayer *player = nullptr;
 
     Tmedia *player = nullptr;
 
